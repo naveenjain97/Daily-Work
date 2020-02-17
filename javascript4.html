@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<title>Javascript 4 examle</title>
+<title>Javascript 4 examle</title>
+<link rel ="icon" href="C:\Users\admin\Desktop\index.png">
+<link href="C:\Users\admin\Desktop\back.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<p>click the buton to loop from 1to 6 to make Html heading </p>
+<button onclick ="myFunction()">click...</button>
+<div id="demo"></div>
+<script>
+function myFunction()
+{
+	var x="",i;
+	for(i=1;i<=6;i++)
+	{
+		x=x + "<h" + i +">Heading" + i + "</h" + i +">";
+	}
+	document.getElementById("demo").innerHTML=x;
+}
+</script>
+</body>
+</html>

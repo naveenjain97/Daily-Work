@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+function Validation()
+{
+	var x=document.form["myform"]["product-name"].value;
+	var y=document.form["myform"]["Quantity"].value;
+	if(x==""||x=="NULL"||y==""||y=="NULL")
+</script>
+</head>
+
+<body>
+<div class="containner">
+<form name ="myform"action="post" onsubmit="return validation()">
+	<input type="text" id="v1" name="product-name" placeholder="product name" required>
+	<input type="text" id="v2" name="Quantity"  placeholder="Quantity" required>
+	<input type="submit">
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<title>Form tag examle</title>
+<link rel ="icon" href="C:\Users\admin\Desktop\index.png">
+</head>
+
+<body>
+<h1> First form....</h1>
+<form method="POST" target=_blank>
+Fname<br>
+<input type="text" name ="name" autofocus ><br><br>
+Lname <br>
+<input type="text" name ="Lname" required><br><br>
+<input type="radio" name="gender" value ="male" checked>Male<br>
+<input type="radio" name= "gender" value="demale">Female<br>
+<input type="Submit" value ="insert">
+</form>
+
+<a href="first.html">go for  Go to the First page</a><br>
+
+
+
+
+<h2> Second form....</h2>
+<form target ="self">
+<fieldset>
+<legend>person information</legend>
+fname<br>
+<input type="text" name ="name"><br><br>
+Lname <br>
+<input type="text" name ="Lname" required><br><br>
+<input type="radio" name="gender" value ="male" checked>Male<br>
+<input type="radio" name= "gender" value="demale">Female<br><br>
+Hobbies<br>
+<input type="checkbox" name ="hobby" value="cric"required>cricket<br>
+<input type="checkbox" name="hobby" value ="sw" >swimming<br>
+<input type="checkbox" name= "hobby" value="Dance">Dance<br><br>
+
+password<br>
+<input type="password" name ="pwd"><br><br>
+Select ur Car<br><br>
+<select name ="cars" size ="4" multiple>
+	<option value ="c1">car1</option>
+	<option value ="c2" selected>car2</option>
+	<option>Car3</option>
+	<option>Car4</option>
+	</select><br><br><br>
+	<textarea name="adr" rows="5" col="20"></textarea><br><br>
+	select color
+	<input type= "color" ><br><br>
+	
+	Birth date 
+	<input type="date"><br><br>
+	
+	Enter the date of Birth before 1980-01-01:
+	<input type ="date" name ="bdate" max="1979-12-31"><br><br>
+	enter the date after 2000-01-01:
+	<input type="date" name="bday" min="2000-01-01"><br>
+	
+	Quantity:
+	<input type="numbeer" name ="point" min="0" ma="100" step="10" value="30"><br>
+	Email:
+	<input type="Email" required multiple><br>
+	
+	<label> Your car name:</label>
+	<input list ="cars" >
+	<datalist id ="cars" >
+	<option value="BMW"/>
+	<option value="BMW"/>
+	<option value="Mercedes"/>
+	<option value="audi"/>
+	</datalist><br>
+	
+<!--	<label> Your car name:</label>
+	<input list ="cars" id="carsInput">
+	<datalist id ="cars" >
+	<option value="BMW"/>
+	<option value="BMW"/>
+	<option value="Mercedes"/>
+	<option value="audi"/>
+	</datalist><br>-->
+	<input type="submit" value ="Inserted"/><br>
+	<input type="reset" value ="Reset"/><br>
+	<button type="button">click me! </button>
+	</fieldset>
+	</form>
+	<a href="practice.html">go for  Go to the First page</a><br>
+</body>
+</html>

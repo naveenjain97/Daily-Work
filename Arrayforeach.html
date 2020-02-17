@@ -1,0 +1,80 @@
+<html>
+<head>
+
+
+</head>
+<body>
+<p>  Splice the Element </p>
+<p id="demo"></p>
+<input type="button" value="numbermap" onclick="myfun3()">
+<input type="button" value="numbermap" onclick="myfun3()">
+<input type="button" value="numbermap" onclick="myfun3()">
+<script>
+/*var txt="QA";
+var numbers=[45,4,9,16,25];
+numbers.forEach(myFunction);
+function myFunction(value)
+{
+txt=txt+value+"<br>";
+}
+document.write(txt);
+
+function myfun4()
+{
+var fruits,text,fLen,i;
+fruits=["banana,""orange","Apple","Mango"];
+fLen=fruits.Length;
+
+text="<ul>";
+for(i=0;i,fLen;i++)
+{
+text+="<li>"+fruits[i]+"</li>";
+}
+text+="<ul>";
+document.write(text);*/
+
+
+function myfun3()
+{
+var numbers=[45,4,9,16,25];
+var numbers2=numbers.map(mydef);
+var numbers3=numbers.filter(myfilterfun);
+var numbers5=numbers.every(myfilterfun);
+var numbers4=numbers.reduce(maketotal);
+var numbers6=numbers.every(myfilterfun)
+var numbers7=numbers.find(myfilterfun)
+//document.write("Result:<br>"+numbers2);
+//document.write("<br>Resul:"+numbers3);
+//document.write("<br>Resu:<br>"+numbers4);
+//document.write("<br>Res:<br>"+numbers6);
+//document.write("<br>Re:<br>"+numbers7);
+//document.getElementById("demo").innerHTML=numbers2;
+//document.getElementById("demo").innerHTML=numbers3;
+//document.getElementById("demo").innerHTML=numbers4;
+//document.getElementById("demo").innerHTML=numbers5;
+document.write( Math.floor(Math.random()*10));
+//document.write( Math.floor(Math.random()*11));
+//document.write( Math.floor(Math.random()*10));
+//document.write( Math.floor(Math.random()*10));
+}
+
+
+function mydef(value)
+{
+return value*2;
+}
+function myfilterfun(value)
+{
+return value>18;
+}
+function maketotal(total,value)
+{
+return total+value;
+}
+
+
+
+
+</script>
+</body>
+</html>

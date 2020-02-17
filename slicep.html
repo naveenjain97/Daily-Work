@@ -1,0 +1,22 @@
+<html>
+<head>
+
+
+</head>
+<body>
+<p>  Splice the Element </p>
+<p id="demo"></p>
+<button onclick="myFunction()">Try it</button>
+<script>
+
+var n=["ram","raja","jay","d","f"];
+document.write(n);"<br>"
+document.getElementById("demo").innerHTML=n;"<br>"
+function myFunction()
+{
+ n.splice(2, 0, "raja", "d");
+  document.getElementById("demo").innerHTML = n;
+  }
+  </script>
+  </body>
+  </html>

@@ -1,0 +1,41 @@
+Back{
+	Background-image:url("C:\Users\admin\Desktop\index.png");
+}
+h1{
+color:red;
+font-size:98;
+display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue; 
+  background-color: yellow;
+  Background-image:url("C:\Users\admin\Desktop\index.png");
+}
+h2{
+display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue; 
+  background-color: yellow;
+Background-image:url("C:\Users\admin\Desktop\index.png");  }
+  
+  h3{
+display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue; 
+  background-color: yellow; 
+  Background-image:url("C:\Users\admin\Desktop\index.png");}
+  .nav
+  {
+	   border: 1px solid blue; 
+  background-color: yellow;
+  font-family:89;
+  color :Blue;
+  Background-image:url("C:\Users\admin\Desktop\index.png");
+  
+  }
+  

@@ -1,0 +1,51 @@
+<html>
+<body>
+<!--<button onclick="myfunction()">click here ..</button>-->
+<button onclick="myFunction()">click here ..</button>
+<script>
+/*function myfunction()
+{
+var i;
+
+for(i=1;i<=4;i++)
+{
+	document.write(i+"<br>");
+}*/
+function myFunction()
+{
+var day=new Date().getDay();
+switch(day)
+{
+	case 0:
+	X= "today is Suhnday";
+	break;
+	case 1:
+	X= "today is Monday";
+	break;
+	case 2:
+	X= "today is Tuesday";
+	break;
+	case 3:
+	X= "today is Wednesday";
+	break;
+	case 4:
+	X= "today is Thursday";
+	break;
+	case 5:
+	X="today is Friday";
+	break;
+	case 6:
+	X="today is saturday";
+	break;
+	case 7:
+	X="today is January";
+	break;
+	default:
+	X="Not proper data..."
+}
+alert(x);
+}
+	
+</script>
+</body>
+</html>

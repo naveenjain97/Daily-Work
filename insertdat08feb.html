@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <script src="u.js"></script>
+ <style>
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+ table {
+  border-collapse: collapse;
+  width: 100%;
+  
+ 
+}
+
+th, td {
+  padding-bottom: 15px;
+  margin-bottom:20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+ input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.body{
+  background-color:grey;
+  padding-top:20px;
+  }
+  
+
+ </style>
+  <title>08-FEB-22020</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+</head>
+<body>
+<div class="container">
+<div class="row ">
+<>
+<ul>
+  <li><a href="card.html">Home</a></li>
+  <li><a href="paraboot.html">News</a></li>
+  <li><a href="grid.html">Contact</a></li>
+  <li><a href="Notification.html">About</a></li>
+</ul>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+ 
+
+ <input type="text" id="fname" name="product-name" placeholder="product Name" required ><br><br>
+
+ <input type="text" id="v1" name="lastname" placeholder="Quantity..."required><br><br>
+
+ 
+ <input type="text" id="v2" name="lastname" placeholder="price..."required><br><br>
+ 
+ 
+ 
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+  
+  
+ <input type="text" id="Result" name= "Result"><br><br>
+ 
+<button type="button" class="btn btn-primary">Insert..</button>
+  <button type="button" class="btn btn-warning">Delete All..</button><br><br>
+  
+</form>
+
+
+
+ <table>
+  <tr>
+    <th>Product Name</th>
+    <th>Quantity</th>
+  <th></th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td><i class="fa fa-trash-o" aria-hidden="true" style="color:red"></i>
+	<i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td><i class="fa fa-trash-o" aria-hidden="true" style="color:red"></i>
+	<i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td><i class="fa fa-trash-o" aria-hidden="true" style="color:red"></li>
+	<i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td><i class="fa fa-trash-o" aria-hidden="true" style="color:red"></i>
+	<i class="fa fa-pencil-square-o" aria-hidden="true" style="margin:5px;"></i></td>
+  </tr>
+</table>
+  
+</body>
+</html>

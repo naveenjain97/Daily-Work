@@ -1,0 +1,44 @@
+<html>
+<head>
+
+</head>
+<body>
+
+
+Value of A=:
+<input type="text" id="v1" name= "value of a"><br><br>
+Value of B:=
+<input type="text" id="v2" name= "Value of B"><br><br>
+Value of C=:
+<input type="text" id="v3" name= "value of C"><br><br>
+value of result:=
+<input type="text" id="Result" name= "Result"><br><br>
+<input type="button" onclick="add()" value="add">
+<input type="button" onclick="mul()" value="mul">
+
+
+<script>
+
+function add()
+{
+	
+	var x=parseInt(document.getElementById("v1").value);
+	var y=parseInt(document.getElementById("v2").value);
+	var z=parseInt(document.getElementById("v3").value);
+	var Result=x+y+z;
+	//document.write(document.getElementById(c);
+	document.getElementById("Result").value=Result;
+	//alert(c);
+}
+function mul()
+{
+	var x=parseInt(document.getElementById("v1").value);
+	var y=parseInt(document.getElementById("v2").value);
+	var z=parseInt(document.getElementById("v3").value);
+	var Result=x*y*z;
+	document.getElementById("Result").value=Result;
+	}
+</script>
+
+</body>
+</html>
