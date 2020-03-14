@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.cts.cookies.example","l":"CookieHandler1"},{"p":"com.cts.cookies.example","l":"CookieHandler2"}]

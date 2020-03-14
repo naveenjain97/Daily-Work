@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>An emple of ProtoType</h1>
+	<script type="text/javascript">
+		function Employee(fName) {
+			this.fName = fName;
+		}
+		var e1 = new Employee("Naveen");
+		var e2 = new Employee("JAin");
+		e1.getEmployeeName = function() {
+			return this.fName;
+		}
+		e2.getEmployeeName = function() {
+			return this.fName;
+		}
+		document.write("e1.name"+e1.getEmployeeName());
+		document.write("<br/>  e2 name="+e2.getEmployeeName());
+		
+	</script>
+</body>
+</html>

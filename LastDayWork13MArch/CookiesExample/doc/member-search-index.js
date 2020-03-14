@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.cts.cookies.example","c":"CookieHandler1","l":"CookieHandler1()","url":"%3Cinit%3E()"},{"p":"com.cts.cookies.example","c":"CookieHandler2","l":"CookieHandler2()","url":"%3Cinit%3E()"}]

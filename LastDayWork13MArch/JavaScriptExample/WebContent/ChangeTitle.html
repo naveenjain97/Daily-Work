@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+   <h1>An Example of an HTML Content Changed</h1>
+     <p id="P1"> 
+    <button onclick="changePageTitle()"> 
+        Change Page Title 
+    </button> 
+    </p>
+      </body>
+    <script type="text/javascript"> 
+        function changePageTitle() { 
+            document.getElementById("P1").innerHTML="This is content";
+            
+            document.title = "web app 20"; 
+            document.querySelector('title').textContent="page title changed";
+        } 
+    </script>  
+
+</html>

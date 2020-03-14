@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<welcome-file-list>
+
+		<welcome-file>Form.html</welcome-file>
+	</welcome-file-list>
+	
+<!--  //Connecting Servlet 06march code-->	
+
+	<servlet>
+		<servlet-name>cs2</servlet-name>
+		<servlet-class>com.cts.servelet.example.ConnectionServlet06March
+		</servlet-class>
+		
+		<init-param>
+			<param-name>userName</param-name>
+			<param-value>root</param-value>
+		</init-param>
+		<init-param>
+			<param-name>password</param-name>
+			<param-value>root</param-value>
+		</init-param>
+		<init-param>
+			<param-name>url</param-name>
+			<param-value>jdbc:mysql://localhost:3306/ctspune</param-value>
+		</init-param>
+		<init-param>
+			<param-name>driver</param-name>
+			<param-value>com.mysql.jdbc.Driver</param-value>
+		</init-param>
+		
+		
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>cs2</servlet-name>
+		<url-pattern>/cs2</url-pattern>
+	</servlet-mapping>
+<!--  //connecting servlet o6 march code over-->
+
+  	<servlet>
+		<servlet-name>FormConnecting</servlet-name>
+		<servlet-class>com.cts.servelet.example.FormConnecting
+		</servlet-class>
+		<init-param>
+			<param-name>userName</param-name>
+			<param-value>root</param-value>
+		</init-param>
+		<init-param>
+			<param-name>password</param-name>
+			<param-value>root</param-value>
+		</init-param>
+		<init-param>
+			<param-name>url</param-name>
+			<param-value>jdbc:mysql://localhost:3306/ctspune</param-value>
+		</init-param>
+		<init-param>
+			<param-name>driver</param-name>
+			<param-value>com.mysql.jdbc.Driver</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FormConnecting</servlet-name>
+		<url-pattern>/cse</url-pattern>
+	</servlet-mapping>
+</web-app>

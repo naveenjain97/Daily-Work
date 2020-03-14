@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+function setCookie()
+{
+	document.cookie="ccNo=5648;max-age="+6656566576*34;
+}
+
+function getCookie() {
+	if(document.cookie.length!=0)
+		{
+		alert(document.cookie);
+		
+		}
+	else{
+		alert("Cookie not available");
+	}
+	
+}
+
+
+
+
+</script>
+</head>
+<body>
+<h1> Cookies Example</h1>
+
+<input type="button"  value="setCookie" onclick="setCookie()"/>
+<input type="button"  value="getCookie" onclick="getCookie()"/>
+
+
+</body>
+</html>
